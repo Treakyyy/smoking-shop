@@ -1,0 +1,24 @@
+.container_category {
+    background-color: rgba(251, 251, 251, 1);
+    width: 268px;
+    height: 580px;
+    margin-right: 65px;
+    margin-bottom: 21px;
+    padding: 14px 24px 28px 18px;
+}
+
+.container_button {
+    margin-top: 67px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+.title {
+    margin: 0;
+    margin-bottom: 10px;
+    color: rgba(61, 61, 61, 1);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+}

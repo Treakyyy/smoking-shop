@@ -1,0 +1,23 @@
+.container_footerContact {
+    background-color: rgba(35, 31, 32, 1);
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 88px;
+    padding-left: 145px;
+}
+
+.footerContact_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}

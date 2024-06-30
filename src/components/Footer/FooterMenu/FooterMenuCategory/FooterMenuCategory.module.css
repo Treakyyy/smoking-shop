@@ -1,0 +1,30 @@
+.button {
+    color: rgba(61, 61, 61, 1);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 3px;
+}
+
+.button:hover {
+    color: rgb(133, 126, 126);
+}
+
+.conteiner_button {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.5px;
+    text-align: left;
+    color: rgba(61, 61, 61, 1);
+    margin-left: 0;
+}

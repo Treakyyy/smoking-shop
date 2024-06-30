@@ -1,0 +1,143 @@
+.container_product {
+    display: flex;
+    margin-left: 145px;
+    margin-top: 46px;
+}
+
+.container_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transition: all 1s ease; 
+}
+
+.container__product_item {
+    display: flex;
+    flex-direction: column;
+    width: 258px;
+    height: 353px;
+    margin: 13px;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease; 
+}
+
+.column_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 144px;
+    margin: 5px 0;
+    background-color: rgba(251, 251, 251, 1); 
+    margin-right: 120px;
+}
+
+.column_image {
+    height: 113px;
+}
+
+.container_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_text_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.container_image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(251, 251, 251, 1);
+    width: 258px;
+    height: 300px;
+    cursor: pointer;
+    transition: all 1s ease; 
+}
+
+.image {
+    transition: transform 0.5s;
+}
+
+.container__product_item:hover .image {
+    transform: scale(1.2);
+}
+
+.hover_item {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    transition: opacity 0.5s;
+}
+
+.container__product_item:hover .hover_item {
+    opacity: 1; 
+}
+
+.text {
+    margin-top: 12px;
+    transition: all 1s ease; 
+}
+
+.price {
+    margin: 0;
+    color: rgba(150, 195, 97, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-top: 5px;
+    transition: all 1s ease; 
+}
+
+.favorite {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.container_image_column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 200px;
+}
+
+.hover_item_column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+
+.hover_item_column {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    transition: opacity 0.5s;
+}
+
+.column_item:hover .hover_item_column {
+    opacity: 1;
+}

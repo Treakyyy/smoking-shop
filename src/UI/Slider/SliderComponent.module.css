@@ -1,0 +1,68 @@
+.slide {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(251, 251, 251, 1);
+  margin-left: 145px;
+  margin-right: 120px;
+  height: 450px;
+  margin-top: 12px;
+}
+
+.content {
+  max-width: 100%;
+  padding-left: 40px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+  margin: 0;
+}
+
+.smoking_text {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+  margin: 0;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(61, 61, 61, 1);
+  padding-top: 10px;
+  padding-bottom: 44px;
+  margin: 0;
+}
+
+.btn {
+  padding: 9px 26px;
+  background-color: rgba(150, 195, 97, 1);
+  border-radius: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cloud {
+  position: absolute;
+  right: 120px;
+}
+
+.tabak {
+  position: absolute;
+  right: 65px;
+  z-index: 1;
+  height: 525px;
+}
+  

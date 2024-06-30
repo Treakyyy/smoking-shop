@@ -1,0 +1,30 @@
+.btn {
+    background-color: rgba(165, 165, 165, 1);
+    height: 25px;
+    border-radius: 29px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    transition: all 1s ease; 
+}
+
+.count {
+    display: flex;
+    gap: 15px;
+    transition: all 1s ease; 
+}
+
+.hover_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    transition: opacity 0.5s;
+}

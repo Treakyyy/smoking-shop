@@ -1,0 +1,56 @@
+.container_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-top: 246px;
+}
+
+.container_about_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 580px;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 30px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: right;
+    color: rgba(61, 61, 61, 1);
+    margin: 0;
+}
+
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: rgba(114, 114, 114, 1);
+    padding: 20px 0;
+    margin: 0;
+}
+
+.women {
+    margin-bottom: 230px;
+}
+
+.hookah {
+    margin-bottom: 130px;
+}
